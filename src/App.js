@@ -20,11 +20,10 @@ function App() {
     };
 
     const handleSearch = (term) => {
-        console.log('Search Term:', term);
+     //   console.log('Search Term:', term);
         Spotify.search(term).then((results) => {
             setSearchResults(results);
         }).catch(error => console.error(error));
-        console.log('Search Term:', term)
     };
 
 
