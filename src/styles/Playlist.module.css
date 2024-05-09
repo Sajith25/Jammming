@@ -1,0 +1,46 @@
+.playlistContainer {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.playlistContainer input {
+    margin: 20px 0;
+    width: 80%;
+    height: 50px;
+    font-size: 1rem;
+    background-color: #C4DEA4;
+    border-radius: 20px;
+    border: 1px solid #116343;
+    text-align: center;
+    color: #116343;
+}
+
+.playlistContainer input:focus, 
+.playlistContainer input:active {
+    border: 1px solid #59b459;
+    text-align: center;
+    color: #116343;
+    outline: none;
+}
+
+.playlistButton {
+    width: 50%;
+    min-width: 230px;
+    margin: 20px 0;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 1px solid #116343;
+    background-color: #C4DEA4; 
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+}
+
+.playlistButton:hover {
+    cursor: pointer;
+    background-color: #99b17d;
+}

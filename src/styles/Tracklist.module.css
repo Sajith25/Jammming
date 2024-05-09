@@ -1,0 +1,65 @@
+.tracklist {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    max-height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.tracklist li {
+    width: 90%;
+    height: fit-content;
+    list-style: none;
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #116343;
+}
+
+.track {
+    width: 25%;
+    margin: 0 auto 0 1px;
+}
+
+.track div {
+    width: 100%;
+}
+
+.track h3 {
+    width: 80%;
+}
+
+.tracklist li button {
+    width: 20%;
+    height: 50px;
+    margin: auto 0 auto auto;
+    border-radius: 20px;
+    background-color: #C4DEA4;
+    border: 1px solid #116343;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.tracklist li button:hover {
+    background-color: #99b17d;
+    scale: 104%;
+    border:1px solid black;
+}
+
+.no_tracks {
+    margin: auto;
+    font-size: 1.8rem;
+}
+
+.audioContainer {
+    margin: auto;
+    color:#116343 ;
+}
