@@ -1,4 +1,4 @@
-const clientId = '4264b0b452c84fb89ff52803f44dfa4a';
+const clientId = '777abe26e01a4a8f8fb3a7f2fd310d9c';
 const redirectUri = 'http://sjammingu.netlify.app';
 let accessToken;
 
